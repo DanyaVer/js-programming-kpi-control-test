@@ -221,4 +221,4 @@ const addUsersToDocument = (users, elem) => {
     }
     elem.innerHTML = html;
 };
-addUsersToDocument(users, document.querySelector("li#users"));
+addUsersToDocument(users, document.querySelector("ul#users"));
